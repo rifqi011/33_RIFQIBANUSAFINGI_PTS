@@ -75,12 +75,11 @@ namespace _33_RIFQIBANUSAFINGI_PTS
             pendidikan, status1, jumlah_anak, alamat, notelp, nohp, alamat_email,
             status);
             frm2.Show();
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            if (MessageBox.Show("Anda Akan Keluar dari Form1 !!", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) { Application.Exit(); }
         }
     }
 }
