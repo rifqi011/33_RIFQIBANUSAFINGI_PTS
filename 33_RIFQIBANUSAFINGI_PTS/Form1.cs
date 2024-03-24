@@ -56,9 +56,7 @@ namespace _33_RIFQIBANUSAFINGI_PTS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-
-            
+            string status = radioButton1.Checked ? "Aktif" : "Tidak Aktif";
         }
 
         private void button2_Click(object sender, EventArgs e)
