@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -50,61 +50,61 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox8
+            // textBox13
             // 
-            this.textBox8.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(543, 290);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(205, 23);
-            this.textBox8.TabIndex = 27;
+            this.textBox13.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox13.Location = new System.Drawing.Point(543, 290);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(205, 23);
+            this.textBox13.TabIndex = 27;
             // 
-            // textBox6
+            // textBox12
             // 
-            this.textBox6.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(543, 235);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(205, 23);
-            this.textBox6.TabIndex = 26;
+            this.textBox12.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox12.Location = new System.Drawing.Point(543, 235);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(205, 23);
+            this.textBox12.TabIndex = 26;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox11.Location = new System.Drawing.Point(543, 182);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(205, 23);
+            this.textBox11.TabIndex = 25;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.Location = new System.Drawing.Point(543, 127);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(205, 23);
+            this.textBox10.TabIndex = 24;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.Location = new System.Drawing.Point(543, 71);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(205, 23);
+            this.textBox9.TabIndex = 23;
             // 
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(543, 182);
+            this.textBox5.Location = new System.Drawing.Point(151, 235);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(205, 23);
-            this.textBox5.TabIndex = 25;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(543, 127);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(205, 23);
-            this.textBox4.TabIndex = 24;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(543, 71);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(205, 23);
-            this.textBox7.TabIndex = 23;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(151, 235);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(205, 23);
-            this.textBox3.TabIndex = 28;
+            this.textBox5.TabIndex = 28;
             // 
             // textBox2
             // 
@@ -262,45 +262,45 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "NIP Guru:";
             // 
-            // textBox9
+            // textBox3
             // 
-            this.textBox9.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(151, 127);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(205, 23);
-            this.textBox9.TabIndex = 21;
+            this.textBox3.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(151, 127);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(205, 23);
+            this.textBox3.TabIndex = 21;
             // 
-            // textBox10
+            // textBox4
             // 
-            this.textBox10.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(151, 182);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(205, 23);
-            this.textBox10.TabIndex = 22;
+            this.textBox4.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(151, 182);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(205, 23);
+            this.textBox4.TabIndex = 22;
             // 
-            // textBox11
+            // textBox6
             // 
-            this.textBox11.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(151, 290);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(205, 23);
-            this.textBox11.TabIndex = 21;
+            this.textBox6.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(151, 290);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(205, 23);
+            this.textBox6.TabIndex = 21;
             // 
-            // textBox12
+            // textBox7
             // 
-            this.textBox12.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(151, 345);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(205, 23);
-            this.textBox12.TabIndex = 22;
+            this.textBox7.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.Location = new System.Drawing.Point(151, 345);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(205, 23);
+            this.textBox7.TabIndex = 22;
             // 
-            // textBox13
+            // textBox8
             // 
-            this.textBox13.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(543, 16);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(205, 23);
-            this.textBox13.TabIndex = 21;
+            this.textBox8.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.Location = new System.Drawing.Point(543, 16);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(205, 23);
+            this.textBox8.TabIndex = 21;
             // 
             // textBox14
             // 
@@ -315,19 +315,19 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label7);
@@ -352,12 +352,12 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label14;
@@ -374,11 +374,11 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox14;
     }
 }

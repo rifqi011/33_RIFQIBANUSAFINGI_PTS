@@ -30,12 +30,6 @@ namespace _33_RIFQIBANUSAFINGI_PTS
             comboBox2.Items.Add("Protestan");
             comboBox2.Items.Add("Konghucu");
 
-            comboBox2.Items.Add("Hindu");
-            comboBox2.Items.Add("Islam");
-            comboBox2.Items.Add("Katholik");
-            comboBox2.Items.Add("Protestan");
-            comboBox2.Items.Add("Konghucu");
-
             comboBox3.Items.Add("Tidak Sekolah");
             comboBox3.Items.Add("Putus SD");
             comboBox3.Items.Add("SD Sederajat");
