@@ -57,6 +57,25 @@ namespace _33_RIFQIBANUSAFINGI_PTS
         private void button1_Click(object sender, EventArgs e)
         {
             string status = radioButton1.Checked ? "Aktif" : "Tidak Aktif";
+
+            var nipguru = textBox1.Text;
+            var nama = textBox2.Text;
+            var jeniskelamin = comboBox1.Text;
+            var agama = comboBox2.Text;
+            var tempatlahir = textBox3.Text;
+            var tanggallahir = dateTimePicker1.Text;
+            var pendidikan = comboBox3.Text;
+            var status1 = comboBox4.Text;
+            var jumlah_anak = textBox4.Text;
+            var alamat = textBox5.Text;
+            var notelp = textBox6.Text;
+            var nohp = textBox7.Text;
+            var alamat_email = textBox8.Text;
+            Form2 frm2 = new Form2(nipguru, nama, jeniskelamin, agama, tempatlahir, tanggallahir,
+            pendidikan, status1, jumlah_anak, alamat, notelp, nohp, alamat_email,
+            status);
+            frm2.Show();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
