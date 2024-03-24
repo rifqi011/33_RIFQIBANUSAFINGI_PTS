@@ -20,7 +20,15 @@ namespace _33_RIFQIBANUSAFINGI_PTS
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            comboBox1.Items.Add("Laki - laki");
+            comboBox1.Items.Add("Perempuan");
+
+            comboBox2.Items.Add("Budha");
+            comboBox2.Items.Add("Hindu");
+            comboBox2.Items.Add("Islam");
+            comboBox2.Items.Add("Katholik");
+            comboBox2.Items.Add("Protestan");
+            comboBox2.Items.Add("Konghucu");
         }
 
         private void button1_Click(object sender, EventArgs e)
