@@ -29,6 +29,24 @@ namespace _33_RIFQIBANUSAFINGI_PTS
             comboBox2.Items.Add("Katholik");
             comboBox2.Items.Add("Protestan");
             comboBox2.Items.Add("Konghucu");
+
+            comboBox2.Items.Add("Hindu");
+            comboBox2.Items.Add("Islam");
+            comboBox2.Items.Add("Katholik");
+            comboBox2.Items.Add("Protestan");
+            comboBox2.Items.Add("Konghucu");
+
+            comboBox3.Items.Add("Tidak Sekolah");
+            comboBox3.Items.Add("Putus SD");
+            comboBox3.Items.Add("SD Sederajat");
+            comboBox3.Items.Add("SMP Sederajat");
+            comboBox3.Items.Add("SMA Sederajat");
+            comboBox3.Items.Add("D-1");
+            comboBox3.Items.Add("D-2");
+            comboBox3.Items.Add("D-3");
+            comboBox3.Items.Add("S-1");
+            comboBox3.Items.Add("S-2");
+            comboBox3.Items.Add("S-3");
         }
 
         private void button1_Click(object sender, EventArgs e)
