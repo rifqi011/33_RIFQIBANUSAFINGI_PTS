@@ -47,6 +47,11 @@ namespace _33_RIFQIBANUSAFINGI_PTS
             comboBox3.Items.Add("S-1");
             comboBox3.Items.Add("S-2");
             comboBox3.Items.Add("S-3");
+
+            comboBox4.Items.Add("Belum Menikah");
+            comboBox4.Items.Add("Duda");
+            comboBox4.Items.Add("Janda");
+            comboBox4.Items.Add("Menikah");
         }
 
         private void button1_Click(object sender, EventArgs e)
