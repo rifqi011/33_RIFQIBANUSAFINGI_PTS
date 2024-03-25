@@ -65,9 +65,7 @@ namespace _33_RIFQIBANUSAFINGI_PTS
             var notelp = textBox6.Text;
             var nohp = textBox7.Text;
             var alamat_email = textBox8.Text;
-            Form2 frm2 = new Form2(nipguru, nama, jeniskelamin, agama, tempatlahir, tanggallahir,
-            pendidikan, status1, jumlah_anak, alamat, notelp, nohp, alamat_email,
-            status);
+            Form2 frm2 = new Form2(nipguru, nama, jeniskelamin, agama, tempatlahir, tanggallahir, pendidikan, status1, jumlah_anak, alamat, notelp, nohp, alamat_email, status);
             frm2.Show();
         }
 

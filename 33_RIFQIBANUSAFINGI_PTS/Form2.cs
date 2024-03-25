@@ -12,20 +12,7 @@ namespace _33_RIFQIBANUSAFINGI_PTS
 {
     public partial class Form2 : Form
     {
-        private string nipguru;
-        private string nama;
-        private string jeniskelamin;
-        private string agama;
-        private string tempatlahir;
-        private string tanggallahir;
-        private string pendidikan;
-        private string status1;
-        private string jumlah_anak;
-        private string alamat;
-        private string notelp;
-        private string nohp;
-        private string alamat_email;
-        private string status;
+        
 
         public Form2(string nipguru, string nama, string jeniskelamin, string agama, string tempatlahir, string tanggallahir, string pendidikan, string status1, string jumlah_anak, string alamat, string notelp, string nohp, string alamat_email, string status)
         {
