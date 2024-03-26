@@ -26,8 +26,11 @@ namespace _33_RIFQIBANUSAFINGI_PTS
         private string nohp;
         private string alamat_email;
         private string status;
+        private System.Drawing.Image picture;
+        private string jam;
+        private string tanggal;
 
-        public Form2(string nipguru, string nama, string jeniskelamin, string agama, string tempatlahir, string tanggallahir, string pendidikan, string status1, string jumlah_anak, string alamat, string notelp, string nohp, string alamat_email, string status)
+        public Form2(string nipguru, string nama, string jeniskelamin, string agama, string tempatlahir, string tanggallahir, string pendidikan, string status1, string jumlah_anak, string alamat, string notelp, string nohp, string alamat_email, string status, System.Drawing.Image picture, string jam, string tanggal)
         {
             InitializeComponent();
             this.nipguru = nipguru;
@@ -44,6 +47,9 @@ namespace _33_RIFQIBANUSAFINGI_PTS
             this.nohp = nohp;
             this.alamat_email = alamat_email;
             this.status = status;
+            this.picture = picture;
+            this.jam = jam;
+            this.tanggal = tanggal;
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -62,6 +68,9 @@ namespace _33_RIFQIBANUSAFINGI_PTS
             textBox12.Text = nohp;
             textBox13.Text = alamat_email;
             textBox14.Text = status;
+            pictureBox1.Image = picture;
+            label15.Text = jam;
+            label16.Text = tanggal;
         }
     }
 }

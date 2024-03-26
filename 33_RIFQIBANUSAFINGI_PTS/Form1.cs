@@ -46,6 +46,9 @@ namespace _33_RIFQIBANUSAFINGI_PTS
             comboBox4.Items.Add("Duda");
             comboBox4.Items.Add("Janda");
             comboBox4.Items.Add("Menikah");
+
+            timer1.Interval = 1000;
+            timer1.Enabled = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -65,13 +68,29 @@ namespace _33_RIFQIBANUSAFINGI_PTS
             var notelp = textBox6.Text;
             var nohp = textBox7.Text;
             var alamat_email = textBox8.Text;
-            Form2 frm2 = new Form2(nipguru, nama, jeniskelamin, agama, tempatlahir, tanggallahir, pendidikan, status1, jumlah_anak, alamat, notelp, nohp, alamat_email, status);
+            var picture = pictureBox1.Image;
+            var jam = label15.Text;
+            var tanggal = label16.Text;
+
+            Form2 frm2 = new Form2(nipguru, nama, jeniskelamin, agama, tempatlahir, tanggallahir, pendidikan, status1, jumlah_anak, alamat, notelp, nohp, alamat_email, status, picture, jam, tanggal);
             frm2.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Anda Akan Keluar dari Form1 !!", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) { Application.Exit(); }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.ShowDialog();
+            pictureBox1.ImageLocation = openFileDialog1.FileName;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label15.Text = DateTime.Now.ToLongTimeString();
+            label16.Text = DateTime.Now.ToLongDateString();
         }
     }
 }
