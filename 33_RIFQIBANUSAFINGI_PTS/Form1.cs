@@ -78,7 +78,7 @@ namespace _33_RIFQIBANUSAFINGI_PTS
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Anda Akan Keluar dari Form1 !!", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) { Application.Exit(); }
+            if (MessageBox.Show("Anda Akan Keluar Pendataan Biodata Guru !!", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) { Application.Exit(); }
         }
 
         private void button3_Click(object sender, EventArgs e)
