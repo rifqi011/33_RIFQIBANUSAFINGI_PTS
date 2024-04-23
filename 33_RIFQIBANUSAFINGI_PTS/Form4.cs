@@ -19,14 +19,10 @@ namespace _33_RIFQIBANUSAFINGI_PTS
         private string agama;
         private string tempatlahir;
         private string tanggallahir;
-        private string pendidikan;
-        private string status1;
-        private string jumlah_anak;
         private string alamat;
         private string notelp;
         private string nohp;
         private string alamat_email;
-        private string status;
         private System.Drawing.Image picture;
         private string jam;
         private string tanggal;

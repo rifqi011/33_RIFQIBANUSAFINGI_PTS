@@ -66,21 +66,55 @@ namespace _33_RIFQIBANUSAFINGI_PTS
             frm4.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+
+        private void button2_Click_1(object sender, EventArgs e)
         {
-            openFileDialog1.ShowDialog();
-            pictureBox1.ImageLocation = openFileDialog1.FileName;
+            if (MessageBox.Show("Anda Akan Keluar Pendataan Biodata Siswa !!", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) {
+                Home home = new Home();
+                home.Show();
+            }
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            var nipguru = textBox1.Text;
+            var nama = textBox2.Text;
+            var jeniskelamin = comboBox1.Text;
+            var agama = comboBox2.Text;
+            var tempatlahir = textBox3.Text;
+            var tanggallahir = dateTimePicker1.Text;
+            var alamat = textBox5.Text;
+            var notelp = textBox6.Text;
+            var nohp = textBox7.Text;
+            var alamat_email = textBox8.Text;
+            var picture = pictureBox1.Image;
+            var jam = label15.Text;
+            var tanggal = label16.Text;
+
+            Form4 frm4 = new Form4(nipguru, nama, jeniskelamin, agama, tempatlahir, tanggallahir, alamat, notelp, nohp, alamat_email, picture, jam, tanggal);
+            frm4.Show();
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick_1(object sender, EventArgs e)
         {
             label15.Text = DateTime.Now.ToLongTimeString();
             label16.Text = DateTime.Now.ToLongDateString();
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
-            if (MessageBox.Show("Anda Akan Keluar Pendataan Biodata Guru !!", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) { Application.Exit(); }
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.ShowDialog();
+            pictureBox1.ImageLocation = openFileDialog1.FileName;
         }
     }
 

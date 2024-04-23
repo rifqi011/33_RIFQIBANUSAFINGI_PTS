@@ -92,6 +92,11 @@
             this.button1.TabIndex = 39;
             this.button1.Text = "Simpan";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
             // label16
             // 
@@ -112,6 +117,7 @@
             this.label15.Size = new System.Drawing.Size(29, 16);
             this.label15.TabIndex = 43;
             this.label15.Text = "Jam";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // button3
             // 
@@ -122,6 +128,7 @@
             this.button3.TabIndex = 42;
             this.button3.Text = "Upload Foto";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // dateTimePicker1
             // 
@@ -300,6 +307,7 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
             // label1
             // 
